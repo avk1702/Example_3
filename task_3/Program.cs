@@ -4,11 +4,10 @@
 Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 // or int.Parse(Console.ReadLine());
-
-if (a % 7 == 0)
+// лучше так if (a % 7 == 0 && a % 23 == 0)
+if (a % 7 == 0 && a % 23 == 0)
 {
-  if (a % 23 == 0)
-
+  
   {
     Console.WriteLine("да");
   }
